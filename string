@@ -1,0 +1,9 @@
+String bi=new String("hi");
+String bi2="hi";
+System.out.println(bi==bi2);//false
+
+String bi="hi";
+String bi2="hi";
+System.out.println(bi==bi2);//true
+
+String 为final 不可变类型 "hi" 放在字符串常量池 java 6在永久代，java 7 在堆；
