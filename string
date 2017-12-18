@@ -7,3 +7,4 @@ String bi2="hi";
 System.out.println(bi==bi2);//true
 
 String 为final 不可变类型 "hi" 放在字符串常量池 java 6在永久代，java 7 在堆；
+String intern()方法,java 6与java 7有些不同；
